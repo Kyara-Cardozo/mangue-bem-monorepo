@@ -23,6 +23,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Run the Maven verify phase
-      run: mvn -f /mangue-bem-api/pom.xml --batch-mode --update-snapshots verify
+      run: mvn -f ./mangue-bem-api/pom.xml --batch-mode --update-snapshots verify
     - name: Build with Maven
-      run: mvn -f /mangue-bem-api/pom.xml -B package
+      run: mvn -f ./mangue-bem-api/pom.xml -B package
