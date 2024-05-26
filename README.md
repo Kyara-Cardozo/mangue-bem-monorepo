@@ -34,3 +34,5 @@ Trata-se de um sistema web com vários perfis de usuários, cada um concedendo a
 3. Faça commit das suas alterações: `git commit -am 'Adicionar alguma feature'`
 4. Faça push para a branch: `git push origin feature/nome-da-sua-feature`
 5. Envie um pull request.
+
+## CI
