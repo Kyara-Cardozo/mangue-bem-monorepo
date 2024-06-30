@@ -1,5 +1,3 @@
-import { info } from "console";
-
 const appString = {
   pt: {
     home: "Home",
@@ -26,7 +24,6 @@ const appString = {
     manageUsers: "Gerenciar curadores",
     curateObservations: "Revisar observações",
     projectName: "BEM",
-    Info: "Sobre nós",
     mushroomCuration: "Curadoria de espécies",
     observationCuration: "Curadoria de observações",
     approve: "Aprovar",
